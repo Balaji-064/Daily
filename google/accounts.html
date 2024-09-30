@@ -20,9 +20,9 @@
         <h1>What's your contact info?</h1>
         <p>You'll be the Google Workspace account admin since you're creating the account.
         </p>
-        <input type="text" style="height: 50px; width: 300px;" placeholder="First name"><br><br>
-        <input type="text" style="height: 50px; width: 300px;" placeholder="Sur name"><br><br>
-        <input type="text" style="height: 50px; width: 300px;" placeholder="Current email address"><br><br>
+        <input type="text" style="height: 50px; width: 300px;" placeholder="First name" pattern="[A-Z][0-9]{8,20}"><br><br>
+        <input type="text" style="height: 50px; width: 300px;" placeholder="Sur name" pattern="[A-Z]"><br><br>
+        <input type="email" style="height: 50px; width: 300px;" placeholder="Current email address" ><br><br>
         <button>Next</button>
 
 
@@ -55,6 +55,7 @@
             height: 40px;
             width: 100px;
             font-weight: 200;
+            
 
         }
 

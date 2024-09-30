@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <h1 style="font-weight: 600; text-align: center;">What are you looking for?</h1>
+    <hr>
+    <div class="fold">
+        <h1 style="padding-left: 250px;">
+            I want to talk to someone in sales
+        </h1>
+
+        <form>
+            <div>
+                <div class="dropdown">
+
+                    <select id="options" name="options">
+                        <option value="option1">India</option>
+                        <option value="option2">Russia</option>
+                        <option value="option3">Europe</option>
+                        <option value="option4">Germany</option>
+                        <option value="option5">Iceland</option>
+                        <option value="option6">Isreal</option>
+                        <option value="option7">Newyork</option>
+
+                    </select>
+                </div><br><br>
+                <input type="text" style="height: 50px; width: 400px;" placeholder="First Name*" required><br><br>
+                <input type="text" style="height: 50px; width: 400px;" placeholder="Sur Name*" required><br><br>
+
+                <input type="text" style="height: 50px; width: 400px;" placeholder="Job title*" required><br><br>
+                <input type="email" style="height: 50px; width: 400px;" placeholder="Business email*" required><br><br>
+                <input type="tel" style="height: 50px; width: 400px;" placeholder="Phonenumber*" required><br><br>
+                <input type="text" style="height: 50px; width: 400px;" placeholder="Business name*" required><br><br>
+
+                <div class="dropdown">
+
+                    <select id="options" name="options">
+                        <option value="option1">Agriculture</option>
+                        <option value="option2">Education</option>
+                        <option value="option3">Government </option>
+                        <option value="option4">Health Care</option>
+                        <option value="option5">Manufacturing</option>
+
+
+                    </select>
+                </div><br><br>
+
+                <div class="dropdown">
+
+                    <select id="options" name="options">
+                        <option value="option1">India</option>
+                        <option value="option2">Russia</option>
+                        <option value="option3">Europe</option>
+                        <option value="option4">Germany</option>
+                        <option value="option5">Iceland</option>
+                        <option value="option6">Isreal</option>
+                        <option value="option7">Newyork</option>
+
+                    </select>
+                </div><br><br>
+
+                <div class="feedback">
+                    <input type="text" style="height: 100px; width: 400px;" placeholder="Feedback" required><br><br>
+
+                </div>
+                <p style="width: 400px;">Sign me up to receive news, product updates, event information and special
+                    offers
+                    about
+                    Google Cloud from Google.</p>
+                <button>Submit Sales request</button>
+                <p>I understand my personal data will be processed in accordance with Google’s Privacy Policy.</p>
+
+
+
+            </div>
+        </form>
+    </div>
+    <hr>
+    <div class="content1">
+        <h1 style="padding-left: 250px;">I am a Google Workspace customer looking for support</h1>
+        <div class="about">
+            Support is included with your paid Google Workspace subscription. Go to the Help Centre for phone, email and
+            chat support – or to find articles for setup, billing and other common topics. Go to Help Centre.
+        </div>
+    </div>
+    <hr>
+    <div class="content2">
+        <h1 style="padding-left: 250px;">I have a compliance question</h1>
+        <div class="about1">
+            Learn what we're doing to stay ahead of the curve and offer a highly secure, reliable and compliant environment. Learn about Google Workspace compliance.
+        </div>
+    </div>
+    <hr>
+
+    <div class="foot">
+        <h1>Sign up for the Google Workspace newsletter</h1>
+        <input type="text" style="height: 50px; width: 300px;" placeholder="Sur name" pattern="[A-Z]">
+
+        
+
+            <select id="options" name="options">
+                <option value="option1">India</option>
+                <option value="option2">Russia</option>
+                <option value="option3">Europe</option>
+                <option value="option4">Germany</option>
+                <option value="option5">Iceland</option>
+                <option value="option6">Isreal</option>
+                <option value="option7">Newyork</option>
+
+            </select>
+
+    </div>
+
+
+    <style>
+        .foot{
+            height: 500px;
+            width:100%;
+            background-color: aliceblue;
+            & h1{
+                padding-top: 100px;
+                text-align: center;
+            }
+            & input{
+                margin-left: 200px;
+                gap:20px;
+            }
+
+        }
+        button {
+            background-color: blue;
+            color: white;
+            height: 50px;
+            width: 150px;
+        }
+
+        .fold {
+            cursor: pointer;
+
+        }
+
+        .fold:hover form {
+            display: block;
+
+        }
+
+        
+
+        .content1 {
+            cursor: pointer;
+        }
+
+        .about {
+            display: none;
+            position: relative;
+            padding-left: 150px;
+        }
+        .content1:hover .about {
+            display: block;
+        }
+
+        hr {
+            width: 800px;
+        }
+
+        #options {
+            height: 50px;
+            width: 400px;
+        }
+        
+        .content2 {
+            cursor: pointer;
+        }
+
+        .about1 {
+            display: none;
+        }
+        .content2:hover .about1 {
+            display: block;
+        }
+
+
+        form {
+            display: flex;
+            flex-direction: column;
+            line-height: 20px;
+            padding-left: 250px;
+            display: none;
+
+        }
+
+        .feedback {
+            height: 150px;
+            width: 800px;
+        }
+    </style>
+</body>
+
+</html>
